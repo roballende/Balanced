@@ -14,3 +14,107 @@
     padding: 5px;
     width: 150px;
   }
+
+  
+/* #title {
+  justify-content : center;
+
+}
+
+#container-1 {
+  display : flex;
+  justify-content : left;
+  flex : 3;
+  /* position : absolute;
+  top: 50;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+
+/* #container-2 {
+  display : flex;
+  justify-content : left;
+  flex : 3;
+  /* position : absolute;
+  top: 50;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+/* }
+
+#subcontainer-2 {
+  justify-content : right;
+  flex : 1;
+  position : relative;
+}
+#result1 {
+  justify-content : right;
+  position: absolute;
+  right: 200px;
+}
+#resultName {
+   position: absolute;
+   right: 200px;
+} */
+/* #calorieresult { */
+
+  /* position: relative;
+  /* right: 200px;
+} */ 
+/* #subcontainer-1 {
+  justify-content : left;
+  flex : 3
+} */
+  /* #container-1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  #subcontainer-1 {
+    display: flex;
+    flex: 3;
+  }
+  #subcontainer-2 {
+    display: flex;
+    flex: 1;
+    
+  }
+  #protein {
+    display: flex;
+    flex: 1;
+    justify-content : space-between;
+  }
+  #protein-radio {
+    position: below;
+    top : 50px;
+  }
+  #grain {
+    display: flex;
+    flex: 1;
+    justify-content : space-between;
+  }
+  #vegetable {
+    flex: 1;
+    justify-content : space-between;
+  
+  }
+  #grainimage {
+    height: 100px;
+    max-width : 150px;
+    width: auto;
+    height: auto;
+  }
+  #proteinimage {
+    height: 100px;
+    max-width : 150px;
+    width: auto;
+  }
+  #vegetableimage {
+    height: 100px;
+    max-width : 150px;
+    width: auto;
+  }
+  #subcontainer-2 {
+    display: flex;
+    flex: 1;
+    width: auto;
+  } */
