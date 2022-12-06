@@ -1,0 +1,16 @@
+.mealProtein {
+    position: relative;
+    height: 20px;
+    width: 50%;
+  }
+.mealGrain {
+    position: relative;
+    height: 50px;
+    width: 50%;
+  }
+.vegetablesImage {
+    border: 1px solid rgb(163, 16, 16);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }

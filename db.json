@@ -1,0 +1,15 @@
+Item{  
+    {
+    _index: "f762ef22-e660-434f-9071-a10ea6691c27",
+    _type: "item",
+    _id: "5e391d8800d8c0dc516c182a",
+    _score: 3.1595445,
+    fields: {
+    item_id: "5e391d8800d8c0dc516c182a",
+    item_name: "Rice",
+    brand_name: "Gerber Organic",
+    nf_calories: 110,
+    nf_serving_size_qty: 1,
+    nf_serving_size_unit: "serving"
+    }
+    }}
