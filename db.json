@@ -7,12 +7,12 @@
         "_score": 1.4420522,
         "fields": {
         "item_id": "58bf2ac26d9263dd6666c703",
-        "item_name":  "Beef, round, eye of round steak, boneless, separable lean and fat, trimmed to 0\" fat, all grades, cooked, grilled - 1 cup",
+        "item_name":  "Round Steak",
         "brand_name": "USDA",
-        "nf_calories": 213.06,
+        "nf_calories": 159,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 134,
+        "nf_serving_weight_grams": 100,
         "foodtype": "meat"
         }
     },                
@@ -23,12 +23,12 @@
         "_score": 11.999265,
         "fields": {
         "item_id": "513fceb575b8dbbc2100133f",
-        "item_name":  "Pork, fresh, loin, tenderloin, separable lean and fat, cooked, roasted - 3 oz",
+        "item_name":  "Pork Tenderloin",
         "brand_name": "USDA",
-        "nf_calories": 124.95,
+        "nf_calories": 147,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 85,
+        "nf_serving_weight_grams": 100,
         "foodtype": "meat"
         }
     },      
@@ -71,7 +71,7 @@
         "_score": 12.1210785,
         "fields": {
         "item_id": "513fceb675b8dbbc21002162",
-        "item_name": "Salmon, cooked - 3 oz",
+        "item_name": "Salmon",
         "brand_name": "USDA",
         "nf_calories": 175.1,
         "nf_serving_size_qty": 1,
@@ -87,7 +87,7 @@
         "_score": 4.853183,
         "fields": {
         "item_id": "52861bc17c776a0200001497",
-        "item_name": "Jasmine Long Grain Rice",
+        "item_name": "Rice",
         "brand_name": "Mahatma",
         "nf_calories": 160,
         "nf_serving_size_qty": 1,
@@ -103,12 +103,12 @@
         "_score": 12.863757,
         "fields": {
         "item_id": "513fceb675b8dbbc210026a5",
-        "item_name": "White Bread - 1 slice, large",
+        "item_name": "White Bread",
         "brand_name": "USDA",
-        "nf_calories": 79.8,
+        "nf_calories": 133,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 30,
+        "nf_serving_weight_grams": 50,
         "foodtype": "grain"
         }
     },    
@@ -119,7 +119,7 @@
         "_score": 13.016796,
         "fields": {
         "item_id":  "571e59bc2b74af3428870ff8",
-        "item_name": "Quinoa, cooked - 0.5 cup",
+        "item_name": "Quinoa",
         "brand_name": "USDA",
         "nf_calories": 111,
         "nf_serving_size_qty": 1,
@@ -135,12 +135,12 @@
         "_score": 13.1063175,
         "fields": {
         "item_id": "513fceb575b8dbbc210017d2",
-        "item_name": "Potato - 1 potato medium",
+        "item_name": "Potato",
         "brand_name":  "USDA",
-        "nf_calories": 160.89,
+        "nf_calories": 111.60,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 173,
+        "nf_serving_weight_grams": 120,
         "foodtype": "grain"
         }
     },    
@@ -151,7 +151,7 @@
         "_score": 11.507633,
         "fields": {
         "item_id": "ddee11314bd3e9d55ca4f5dd",
-        "item_name": "Pasta, cooked, enriched, without added salt - 1 cup farfalle",
+        "item_name": "Pasta",
         "brand_name": "USDA",
         "nf_calories": 169.06,
         "nf_serving_size_qty": 1,
@@ -167,7 +167,7 @@
         "_score":  13.077972,
         "fields": {
         "item_id": "513fceb575b8dbbc2100149e",
-        "item_name": "Steamed Broccoli - 0.5 cup, chopped",
+        "item_name": "Steamed Broccoli",
         "brand_name": "USDA",
         "nf_calories": 27.3,
         "nf_serving_size_qty": 1,
@@ -183,7 +183,7 @@
         "_score": 13.511161,
         "fields": {
         "item_id": "571faaa3cb8c2d982728249f" ,
-        "item_name": "Asparagus - 5 spears",
+        "item_name": "Asparagus",
         "brand_name": "USDA",
         "nf_calories": 16.5,
         "nf_serving_size_qty": 1,
@@ -199,12 +199,12 @@
         "_score": 12.132039,
         "fields": {
         "item_id": "513fceb575b8dbbc210016e2",
-        "item_name": "Spinach, cooked, boiled, drained, without salt - 1 cup",
+        "item_name": "Spinach",
         "brand_name": "USDA",
-        "nf_calories": 41.4,
+        "nf_calories": 20.7,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 180,
+        "nf_serving_weight_grams": 90,
         "foodtype": "vegetables"
         }
     },    
@@ -215,7 +215,7 @@
         "_score": 12.392384,
         "fields": {
         "item_id": "5644f24f0cb33d6e42899b4e",
-        "item_name": "Mixed Lettuce - 3 cups",
+        "item_name": "Mixed Lettuce",
         "brand_name": "Nutritionix",
         "nf_calories": 19.98,
         "nf_serving_size_qty": 1,
@@ -231,12 +231,12 @@
         "_score": 12.708525,
         "fields": {
         "item_id": "513fceb575b8dbbc21001525",
-        "item_name": "Corn, sweet, yellow, cooked, boiled, drained, without salt - 1 cup cut",
+        "item_name": "Corn",
         "brand_name": "USDA",
-        "nf_calories": 143.04,
+        "nf_calories": 48,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
-        "nf_serving_weight_grams": 149,
+        "nf_serving_weight_grams": 50,
         "foodtype": "vegetables"
         }
     }  
