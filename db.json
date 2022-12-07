@@ -7,7 +7,7 @@
         "_score": 1.4420522,
         "fields": {
         "item_id": "58bf2ac26d9263dd6666c703",
-        "item_name_meat":  "Round Steak",
+        "item_name":  "Round Steak",
         "brand_name": "USDA",
         "nf_calories": 159,
         "nf_serving_size_qty": 1,
@@ -24,7 +24,7 @@
         "_score": 11.999265,
         "fields": {
         "item_id": "513fceb575b8dbbc2100133f",
-        "item_name_meat":  "Pork Tenderloin",
+        "item_name":  "Pork Tenderloin",
         "brand_name": "USDA",
         "nf_calories": 147,
         "nf_serving_size_qty": 1,
@@ -41,7 +41,7 @@
         "_score": 2.085148,
         "fields": {
         "item_id": "631b1de051167d00098fa594",
-        "item_name_meat": "Chicken Tenderloin",
+        "item_name": "Chicken Tenderloin",
         "brand_name": "Sanderson Farms",
         "nf_calories": 120,
         "nf_serving_size_qty": 1,
@@ -58,7 +58,7 @@
         "_score": 3.7625527 ,
         "fields": {
         "item_id": "61322911aef7800008330b07" ,
-        "item_name_meat": "Tofu",
+        "item_name": "Tofu",
         "brand_name": "Unisoya",
         "nf_calories": 150,
         "nf_serving_size_qty": 1,
@@ -75,7 +75,7 @@
         "_score": 12.1210785,
         "fields": {
         "item_id": "513fceb675b8dbbc21002162",
-        "item_name_meat": "Salmon",
+        "item_name": "Salmon",
         "brand_name": "USDA",
         "nf_calories": 175.1,
         "nf_serving_size_qty": 1,
@@ -92,7 +92,7 @@
         "_score": 4.853183,
         "fields": {
         "item_id": "52861bc17c776a0200001497",
-        "item_name_grain": "Rice",
+        "item_name": "Rice",
         "brand_name": "Mahatma",
         "nf_calories": 160,
         "nf_serving_size_qty": 1,
@@ -109,7 +109,7 @@
         "_score": 12.863757,
         "fields": {
         "item_id": "513fceb675b8dbbc210026a5",
-        "item_name_grain": "White Bread",
+        "item_name": "White Bread",
         "brand_name": "USDA",
         "nf_calories": 133,
         "nf_serving_size_qty": 1,
@@ -126,7 +126,7 @@
         "_score": 13.016796,
         "fields": {
         "item_id":  "571e59bc2b74af3428870ff8",
-        "item_name_grain": "Quinoa",
+        "item_name": "Quinoa",
         "brand_name": "USDA",
         "nf_calories": 111,
         "nf_serving_size_qty": 1,
@@ -143,7 +143,7 @@
         "_score": 13.1063175,
         "fields": {
         "item_id": "513fceb575b8dbbc210017d2",
-        "item_name_grain": "Potato",
+        "item_name": "Potato",
         "brand_name":  "USDA",
         "nf_calories": 111.60,
         "nf_serving_size_qty": 1,
@@ -160,7 +160,7 @@
         "_score": 11.507633,
         "fields": {
         "item_id": "ddee11314bd3e9d55ca4f5dd",
-        "item_name_grain": "Pasta",
+        "item_name": "Pasta",
         "brand_name": "USDA",
         "nf_calories": 169.06,
         "nf_serving_size_qty": 1,
@@ -177,7 +177,7 @@
         "_score":  13.077972,
         "fields": {
         "item_id": "513fceb575b8dbbc2100149e",
-        "item_name_vegetables": "Steamed Broccoli",
+        "item_name": "Steamed Broccoli",
         "brand_name": "USDA",
         "nf_calories": 27.3,
         "nf_serving_size_qty": 1,
@@ -194,7 +194,7 @@
         "_score": 13.511161,
         "fields": {
         "item_id": "571faaa3cb8c2d982728249f" ,
-        "item_name_vegetables": "Asparagus",
+        "item_name": "Asparagus",
         "brand_name": "USDA",
         "nf_calories": 16.5,
         "nf_serving_size_qty": 1,
@@ -211,7 +211,7 @@
         "_score": 12.132039,
         "fields": {
         "item_id": "513fceb575b8dbbc210016e2",
-        "item_name_vegetables": "Spinach",
+        "item_name": "Spinach",
         "brand_name": "USDA",
         "nf_calories": 20.7,
         "nf_serving_size_qty": 1,
@@ -228,7 +228,7 @@
         "_score": 12.392384,
         "fields": {
         "item_id": "5644f24f0cb33d6e42899b4e",
-        "item_name_vegetables": "Mixed Lettuce",
+        "item_name": "Mixed Lettuce",
         "brand_name": "Nutritionix",
         "nf_calories": 19.98,
         "nf_serving_size_qty": 1,
@@ -245,7 +245,7 @@
         "_score": 12.708525,
         "fields": {
         "item_id": "513fceb575b8dbbc21001525",
-        "item_name_vegetables": "Corn",
+        "item_name": "Corn",
         "brand_name": "USDA",
         "nf_calories": 48,
         "nf_serving_size_qty": 1,
