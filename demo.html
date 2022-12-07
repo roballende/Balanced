@@ -10,58 +10,82 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header> 
-        <h1> Balanced Diet</h1>
-    </header>
-    <div id = "container-1">
-        <div id="protein">
-            <h2> Protein</h2>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
+    <section>
+        <h1>Balanced Diet </h1>
+    </section>
+    <div id= "main">
+        <div id = "container-1">
+        <div id ="protein">
+            <h2>Protein</h2>
+            <nav class = "protein-list">
+
+            </nav>
+        
+            <img id = "protein-image" src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />
+            <form id="protein-form">
+                <input type="text" name="protein-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>
         </div>
-        <div id="grain">
-            <h2> grin</h2>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
+        <div id ="grain">
+            <h2>Grain</h2>
+            <nav class = "grain-list">
+              
+            </nav>
+           
+            <img id="grain-image"src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />
+            <form id="grain-form">
+                <input type="text" name="grain-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>
         </div>
-        <div id="vegetable">
-            <h2> vegetable</h2>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
+        <div id ="vegetable">
+            <h2>Vegetable</h2>
+            <nav class = "vegetables-list">
+              
+            </nav>
+         
+            <img id ="vegetable-image" src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />
+            <form id="vegetable-form">
+                <input type="text" name="vegetable-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>
         </div>
-        <div class = "subcontainer-2">
-        <div id = "Name">
-            <h1> Name</h1>
-            <h3> Name Result</h3>
+    </div><!--divcontainer 1 end -->
+    <div id = "container-2">
+        <div id="subcontainer-2-1">
+        <div id="name">
+            <h1>Name</h1>
+            <h2 class = "displayName">Result Name</h2>
         </div>
-        <div id = "Weight">
-          <h1> Weight</h1>
-          <h3> Weight Result</h3>
-      </div>
-      <div id = "Calorie">
-        <h1> Calorie</h1>
-        <h3> Calorie Result</h3>
-       </div>
-       </div><!--subcontainer2-->
-    </div>
-    <form id = "dropdown-form">
-      <label for = "Choose"> Choose Your </label>
-      <select name = "servingsize" id = "servingsize"> 
-          <option value = "Big"> Big</option>
-          <option value = "Medium"> Medium</option>
-          <option value = "small"> small</option>
-      </select>
-      <br><br> 
-      <input type = "submit" value = "Submit" />
-  </form>
+        <div id="weight">
+            <h1>Weight</h1>
+            <h2 class = "displayWeight">Result Weight</h2>
+        </div>
+        <div id="calorie">
+            <h1>Calorie</h1>
+            <h2 class = "displayCalorie">Result Calorie</h2>
+        </div>
+        </div><!--end subcontainer-2-1-->
+        <br><br>
+        <div id="subcontainer-2-2">
+            <form id = "dropdown-form">
+                <label id = "choose" for = "Choose"> Choose Your </label>
+                <select name = "servingsize" id = "servingsize">
+                    <option value = "Big"> Big</option>
+                    <option value = "Medium"> Medium</option>
+                    <option value = "small"> small</option>
+                </select>
+                <br><br>
+                <input id = "submitsize" type = "submit" value = "Submit" />
+            </form>
+        </div>
+    </div> <!--div container 2 end-->
+    </div> <!--div main end -->
+    <div id = "final-result">
+      <h1>Total Calorie is - </h1>
+      <span>(Total Calories Goes Here</span>
+  </div>
+
   </body>
   </html>

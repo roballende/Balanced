@@ -7,13 +7,14 @@
         "_score": 1.4420522,
         "fields": {
         "item_id": "58bf2ac26d9263dd6666c703",
-        "item_name":  "Round Steak",
+        "item_name_meat":  "Round Steak",
         "brand_name": "USDA",
         "nf_calories": 159,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 100,
-        "foodtype": "meat"
+        "foodtype": "meat",
+        "images": "https://www.closetcooking.com/wp-content/uploads/2018/01/PerfectEyeofRoundRoast8009508.jpg"
         }
     },                
     {
@@ -23,13 +24,14 @@
         "_score": 11.999265,
         "fields": {
         "item_id": "513fceb575b8dbbc2100133f",
-        "item_name":  "Pork Tenderloin",
+        "item_name_meat":  "Pork Tenderloin",
         "brand_name": "USDA",
         "nf_calories": 147,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 100,
-        "foodtype": "meat"
+        "foodtype": "meat",
+        "images": "https://www.allrecipes.com/thmb/_lO25gXMcpAp9jMh9dI6r2miN2Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21766-Roasted-pork-loin-115-c81a6fcd899f4aa892fcd5b038bff611.jpg"
         }
     },      
     {
@@ -39,13 +41,14 @@
         "_score": 2.085148,
         "fields": {
         "item_id": "631b1de051167d00098fa594",
-        "item_name": "Chicken Tenderloin",
+        "item_name_meat": "Chicken Tenderloin",
         "brand_name": "Sanderson Farms",
         "nf_calories": 120,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 112,
-        "foodtype": "meat"
+        "foodtype": "meat",
+        "images": "https://thebakermama.com/wp-content/uploads/2021/04/IMG_4396-scaled.jpg"
         }
     },
     {
@@ -55,13 +58,14 @@
         "_score": 3.7625527 ,
         "fields": {
         "item_id": "61322911aef7800008330b07" ,
-        "item_name": "Tofu",
+        "item_name_meat": "Tofu",
         "brand_name": "Unisoya",
         "nf_calories": 150,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 100,
-        "foodtype": "meat"
+        "foodtype": "meat",
+        "images": "https://images.immediate.co.uk/production/volatile/sites/30/2013/07/tofu-6a6a4ef.jpg?quality=90&webp=true&resize=600,545"
         }
     },    
     {
@@ -71,13 +75,14 @@
         "_score": 12.1210785,
         "fields": {
         "item_id": "513fceb675b8dbbc21002162",
-        "item_name": "Salmon",
+        "item_name_meat": "Salmon",
         "brand_name": "USDA",
         "nf_calories": 175.1,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 85,
-        "foodtype": "meat"
+        "foodtype": "meat",
+        "images": "https://bellyfull.net/wp-content/uploads/2022/04/Honey-glazed-salmon-blog-2.jpg"
         }
     },    
     {
@@ -87,13 +92,14 @@
         "_score": 4.853183,
         "fields": {
         "item_id": "52861bc17c776a0200001497",
-        "item_name": "Rice",
+        "item_name_grain": "Rice",
         "brand_name": "Mahatma",
         "nf_calories": 160,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 45,
-        "foodtype": "grain"
+        "foodtype": "grain",
+        "images": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_18/1431472/rice-today-main-190430.jpg"
         }
     },
     {
@@ -103,13 +109,14 @@
         "_score": 12.863757,
         "fields": {
         "item_id": "513fceb675b8dbbc210026a5",
-        "item_name": "White Bread",
+        "item_name_grain": "White Bread",
         "brand_name": "USDA",
         "nf_calories": 133,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 50,
-        "foodtype": "grain"
+        "foodtype": "grain",
+        "images": "https://media.istockphoto.com/id/522566233/photo/toast-bread.jpg?s=612x612&w=0&k=20&c=Dk7k60QaB4fVik7OyO9LQGi_a_2vEAdKX7GBJDzqskw="
         }
     },    
     {
@@ -119,13 +126,14 @@
         "_score": 13.016796,
         "fields": {
         "item_id":  "571e59bc2b74af3428870ff8",
-        "item_name": "Quinoa",
+        "item_name_grain": "Quinoa",
         "brand_name": "USDA",
         "nf_calories": 111,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 92.5,
-        "foodtype": "grain"
+        "foodtype": "grain",
+        "images": "https://www.ambitiouskitchen.com/wp-content/uploads/2021/02/How-to-Cook-the-Best-Fluffy-Quinoa-7.jpg"
         }
     },    
     {
@@ -135,13 +143,14 @@
         "_score": 13.1063175,
         "fields": {
         "item_id": "513fceb575b8dbbc210017d2",
-        "item_name": "Potato",
+        "item_name_grain": "Potato",
         "brand_name":  "USDA",
         "nf_calories": 111.60,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 120,
-        "foodtype": "grain"
+        "foodtype": "grain",
+        "images": "https://www.allrecipes.com/thmb/c_2gXiAwkO6u1UJCY-1eAVCy0h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/54679_perfect-baked-potato-Rita-1x1-1-91711252bb3740088c8ea55c5f9bef1c.jpg"
         }
     },    
     {
@@ -151,13 +160,14 @@
         "_score": 11.507633,
         "fields": {
         "item_id": "ddee11314bd3e9d55ca4f5dd",
-        "item_name": "Pasta",
+        "item_name_grain": "Pasta",
         "brand_name": "USDA",
         "nf_calories": 169.06,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 107,
-        "foodtype": "grain"
+        "foodtype": "grain",
+        "images": "https://chefjackovens.com/wp-content/uploads/2020/11/My-Post-56-1.jpg"
         }
     },    
     {
@@ -167,13 +177,14 @@
         "_score":  13.077972,
         "fields": {
         "item_id": "513fceb575b8dbbc2100149e",
-        "item_name": "Steamed Broccoli",
+        "item_name_vegetables": "Steamed Broccoli",
         "brand_name": "USDA",
         "nf_calories": 27.3,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving", 
         "nf_serving_weight_grams": 78,
-        "foodtype": "vegetables"
+        "foodtype": "vegetables",
+        "images": "https://kristineskitchenblog.com/wp-content/uploads/2021/10/steamed-broccoli-recipe-378.jpg"
         }
     },    
     {
@@ -183,13 +194,14 @@
         "_score": 13.511161,
         "fields": {
         "item_id": "571faaa3cb8c2d982728249f" ,
-        "item_name": "Asparagus",
+        "item_name_vegetables": "Asparagus",
         "brand_name": "USDA",
         "nf_calories": 16.5,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 75,
-        "foodtype": "vegetables"
+        "foodtype": "vegetables",
+        "images": "https://www.wholesomeyum.com/wp-content/uploads/2021/02/wholesomeyum-sauteed-asparagus-recipe-with-lemon-and-garlic-5.jpg"
         }
     },    
     {
@@ -199,13 +211,14 @@
         "_score": 12.132039,
         "fields": {
         "item_id": "513fceb575b8dbbc210016e2",
-        "item_name": "Spinach",
+        "item_name_vegetables": "Spinach",
         "brand_name": "USDA",
         "nf_calories": 20.7,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 90,
-        "foodtype": "vegetables"
+        "foodtype": "vegetables",
+        "images": "https://media.istockphoto.com/id/522189977/photo/spinach.jpg?s=612x612&w=0&k=20&c=WnfMaNx-yOhh393DZ4lyG6tF3Hp2osD6PEmuOKsTvWs="
         }
     },    
     {
@@ -215,13 +228,14 @@
         "_score": 12.392384,
         "fields": {
         "item_id": "5644f24f0cb33d6e42899b4e",
-        "item_name": "Mixed Lettuce",
+        "item_name_vegetables": "Mixed Lettuce",
         "brand_name": "Nutritionix",
         "nf_calories": 19.98,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 85,
-        "foodtype": "vegetables"
+        "foodtype": "vegetables",
+        "images": "https://images.eatthismuch.com/img/924521_tabitharwheeler_7528d908-1d28-4555-b437-5adacb9a22d2.jpg"
         }
     },    
     {
@@ -231,13 +245,14 @@
         "_score": 12.708525,
         "fields": {
         "item_id": "513fceb575b8dbbc21001525",
-        "item_name": "Corn",
+        "item_name_vegetables": "Corn",
         "brand_name": "USDA",
         "nf_calories": 48,
         "nf_serving_size_qty": 1,
         "nf_serving_size_unit": "serving",
         "nf_serving_weight_grams": 50,
-        "foodtype": "vegetables"
+        "foodtype": "vegetables",
+        "images": "https://ezmart.sg/images/thumbs/0004855_frozen-corn-kernels-1kg_510.jpeg"
         }
     }  
        
