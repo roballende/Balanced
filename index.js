@@ -1,6 +1,11 @@
 fetch("http://localhost:3000/Foods")
     .then(resp => resp.json())
-    .then(foodArray => renderArray(foodArray))
+    .then(foodArray => {
+        renderArray(foodArray)
+        showImage(foodArray[0])
+        showImage1(foodArray[5])
+        showImage2(foodArray[10])
+    })
    
 //DOM Selector
 const foodTitle = document.querySelector(".displayName")
@@ -9,6 +14,11 @@ const foodCalories = document.querySelector(".displayCalorie")
 const proteinImage = document.querySelector("#protein-image")
 const grainImage = document.querySelector("#grain-image")
 const vegetableImage = document.querySelector("#vegetable-image")
+const proteinCalorieCount = document.querySelector("#protein-form")
+const grainCalorieCount = document.querySelector("#grain-form")
+const vegetablesCalorieCount = document.querySelector("#vegetable-form")
+const totalCalorie = document.querySelector("#total-calorie")
+
 //This will show meat, grain, vegetables in table
 
 
@@ -22,6 +32,7 @@ function renderArray(foodArray){
         proteinContainer.append(proteinName)
         proteinName.addEventListener('click', () => showImage(food))
         proteinName.addEventListener('mouseover', () => showDetails(food))
+        proteinName.addEventListener('click', () => proteinCalorie(food))
     })
     //Grain Column
     foodArray.forEach(food =>{
@@ -43,7 +54,7 @@ function renderArray(foodArray){
     })
 }
 
-//Click addEventListener
+//Mouseover addEventListener
 function showDetails(food){
     foodTitle.textContent = food.fields.item_name_meat
     foodWeight.textContent = food.fields.nf_serving_weight_grams
@@ -59,15 +70,21 @@ function showDetails2(food){
     foodWeight.textContent = food.fields.nf_serving_weight_grams
     foodCalories.textContent = food.fields.nf_calories
 }
-//Mouseover addEventListener
+//Click addEventListener
 function showImage(food){
     proteinImage.src = food.fields.images 
+    proteinCalorieCount.textContent = food.fields.nf_calories
 }
 function showImage1(food){
     grainImage.src = food.fields.images
+    grainCalorieCount.textContent = food.fields.nf_calories
 }
 function showImage2(food){
     vegetableImage.src = food.fields.images
+    vegetablesCalorieCount.textContent = food.fields.nf_calories
 }
 
-//Delete addEventListener
+//Total Up 3 kind of food
+
+
+
