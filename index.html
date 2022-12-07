@@ -10,80 +10,84 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-  <header> 
-    <h1> Balanced Diet </h1>
-
-  </header>
-  <div id = "dropdown-menu">
-    <h2> Dropdown Menu Here</h2>
-    
-  </div>
-  <div id = "container-1"> 
-    <div id = "subcontainer-1">
-        <div id="protein">
-    
-            <h3> Protein </h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-           </div>
-           
-
-        </div> <!--protein div end-->
-        <div id = "grain">
-            
-            <div id = "grain">
-            <h3> Protein </h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-            <h3>Inser fOod name</h3>
-
-             </div> <!--end protein radio 2-->
-             
-        </div><!-- grain div end-->
-        <div id = "vegetable">
-            <div id = "grain">
-                <h3> Protein </h3>
-                <h3>Inser fOod name</h3>
-                <h3>Inser fOod name</h3>
-                <h3>Inser fOod name</h3>
-                <h3>Inser fOod name</h3>
-                <h3>Inser fOod name</h3>
-    
-            </div> <!--end protein radio 2-->
-            
-            
-        </div> <!--vegetable div end-->
-   
-        <div id = "resultName">
-                <h3> Name </h3>
-                <h3> Hello</h3>
-    
-        <div id = "resultCalorie">
-                    <h3> Calorie </h3>
-                    <h3> Hello</h3>
+    <section>
+        <h1>Balanced Diet </h1>
+    </section>
+    <div id= "main">
+        <div id = "container-1">
+        <div id ="protein">
+            <h2>Protein</h2>
+            <h3>Insert Protein Food Name Here</h3>
+            <h3>Insert Protein Food Name Here</h3>
+            <h3>Insert Protein Food Name Here</h3>
+            <h3>Insert Protein Food Name Here</h3>
+            <h3>Insert Protein Food Name Here</h3>
+            <img src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />  
+            <form id="protein-form">
+                <input type="text" name="protein-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>
+        </div>
+      
+        <div id ="grain">
+            <h2>Grain</h2>
+            <h3>Insert grain Food Name Here</h3>
+            <h3>Insert grain Food Name Here</h3>
+            <h3>Insert grain Food Name Here</h3>
+            <h3>Insert grain Food Name Here</h3>
+            <h3>Insert grain Food Name Here</h3>
+            <img src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />   
+            <form id="grain-form">
+                <input type="text" name="grain-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>  
+        </div>
         
-        <div id = "resultWeight">
-                        <h3> Weight </h3>
-                        <h3> Hello</h3>            
-            
-        </div> <!--vegetable div end-->
+        <div id ="vegetable">
+            <h2>Vegetable</h2>
+            <h3>Insert vegetable Food Name Here</h3>
+            <h3>Insert vegetable Food Name Here</h3>
+            <h3>Insert vegetable Food Name Here</h3>
+            <h3>Insert vegetable Food Name Here</h3>
+            <h3>Insert vegetable Food Name Here</h3>
+            <img src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*" />   
+            <form id="vegetable-form">
+                <input type="text" name="vegetable-input" placeholder="Your Comment Here"><br><br>
+                <input type="submit" value="Add Comment">
+            </form>  
+        </div>
+    </div><!--divcontainer 1 end -->
+    <div id = "container-2">
+        <div id="subcontainer-2-1">
+        <div id="name">
+            <h1>Name</h1>
+            <h2>Result Name</h2>
+        </div>
 
-    </div> <!--subcontainer2 end-->
-  </div> <!-- div container-1 end-->
-  <form id = "dropdown-form">
-    <label for = "Choose"> Choose Your </label>
-    <select name = "servingsize" id = "servingsize"> 
-        <option value = "Big"> Big</option>
-        <option value = "Medium"> Medium</option>
-        <option value = "small"> small</option>
-    </select>
-    <br><br> 
-    <input type = "submit" value = "Submit" />
-</form>
+        <div id="weight">
+            <h1>Weight</h1>
+            <h2>Result Weight</h2>
+        </div>
+
+        <div id="calorie">
+            <h1>Calorie</h1>
+            <h2>Result Calorie</h2>
+        </div>
+        </div><!--end subcontainer-2-1-->
+        <br><br>
+        <div id="subcontainer-2-2">
+            <form id = "dropdown-form">
+                <label for = "Choose"> Choose Your </label>
+                <select name = "servingsize" id = "servingsize"> 
+                    <option value = "Big"> Big</option>
+                    <option value = "Medium"> Medium</option>
+                    <option value = "small"> small</option>
+                </select>
+                <br><br> 
+                <input type = "submit" value = "Submit" />
+            </form> 
+        </div>
+    </div> <!--div container 2 end-->
+    </div> <!--div main end -->
   </body>
   </html>
