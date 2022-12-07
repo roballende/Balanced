@@ -42,6 +42,14 @@ img {
   height: auto;
   max-width: 250px;
 }
+
+#servingsize {
+  font-size: 40px;
+}
+#choose {
+  font-size: 40px;
+}
+
 /* #name{
   padding-top: 150px;
   padding-left: 30 px;
