@@ -98,18 +98,47 @@ function calorieCalculator(e) {
     e.preventDefault()
 
     if (e.target.servingsize.value == "Snack"){
-    mealCalorie = parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent)
+        mealCalorie = parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent)
     }
     else if (e.target.servingsize.value == "Meal"){
-    mealCalorie = ((parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent))*2)
+        mealCalorie = ((parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent))*2)
     }
     else if (e.target.servingsize.value == "Feast"){
-    mealCalorie = ((parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent))*3)
+        mealCalorie = ((parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent))*3)
     }
+
     totalCalorie.textContent = mealCalorie
-    
-    
 }
+
+//Add New Food
+// const foodForm = document.querySelector('#new-food')
+// foodForm.addEventListener('submit', renderNewFood)
+// function renderNewFood(e) {
+//     e.preventDefault()
+//     const newName = document.querySelector('#new-food-name').value
+//     const newCalories = document.querySelector('#new-food-calories').value
+//     const newImage = document.querySelector('#new-food-image').value
+//     const newWeight = document.querySelector('#new-food-weight').value
+//     const newFoodType = document.querySelector('#food-type').value
+//     fetch('http://localhost:3000/Foods', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json',
+//             'Accept': 'application/json',
+//         },
+//         body: JSON.stringify({
+//                 item_name: newName,
+//                 nf_calories: newCalories,
+//                 nf_serving_weight_grams: newWeight,
+//                 foodtype: newFoodType,
+//                 images: newImage
+//         })
+//     })
+//     .then(resp => resp.json())
+//     .then(newFoodType => renderArray([newFoodType]))
+//     e.target.reset()
+// }
+
 
 // // Item List
 // function renderArray(foodArray){
@@ -191,6 +220,6 @@ function calorieCalculator(e) {
 //     else if (e.target.servingsize.value == "Feast"){
 //     mealCalorie = ((parseInt(proteinCalorieCount.textContent) + parseInt(grainCalorieCount.textContent) + parseInt(vegetablesCalorieCount.textContent))*3)
 //     }
-//     totalCalorie.append(mealCalorie)
+//     totalCalorie.textContent(mealCalorie)
     
 // }
