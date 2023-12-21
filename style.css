@@ -14,16 +14,19 @@ section {
 #container-1 {
   display: flex;
   flex : 1;
-  width: 400px;
+  width: 775px;
   height: auto;
   padding:0px;
+}
+#container-2 {
+  width: 550px;
 }
 #subcontainer-2-1 {
   text-align: center;
   justify-content: center;
   display: flex;
   flex: 1;
-  padding-left: 180px;
+  padding-left: 50px;
   padding-right: 50px;
 }
 #new-food {
@@ -35,7 +38,7 @@ section {
   padding-left: 10px;
 }
 #result-container-1{
-  padding-left: 200px;
+  padding-left: 20px;
 }
 #protein {
   padding: 5px;

@@ -110,7 +110,9 @@ function calorieCalculator(e) {
     totalCalorie.textContent = mealCalorie
 }
 
-//Add New Food
+//Add New Food ***broken due to nested fields object within food object?***
+// possible fix: change database formatting
+
 // const foodForm = document.querySelector('#new-food')
 // foodForm.addEventListener('submit', renderNewFood)
 // function renderNewFood(e) {
